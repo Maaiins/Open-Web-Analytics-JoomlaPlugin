@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.0" method="upgrade" type="plugin" group="system">
+    <name>OpenWebAnalytics</name>
+    <author>Maaiins</author>
+    <creationDate>April 2020</creationDate>
+    <copyright>Copyright 2020</copyright>
+    <license>GNU General Public License version 3 or later; see LICENSE.txt</license>
+    <authorEmail>joomla@lauser.info</authorEmail>
+    <version>1.0</version>
+    <files>
+        <filename plugin="openwebanalytics">openwebanalytics.php</filename>
+        <filename>index.html</filename>
+    </files>
+
+    <config>
+        <fields name="params">
+            <fieldset name="basic">
+                <field name="path" type="text" filter="raw"
+                       description="put in the folder of the local OpenWebAnalytics installation"
+                       label="Path"
+                />
+            </fieldset>
+        </fields>
+    </config>
+</extension>
